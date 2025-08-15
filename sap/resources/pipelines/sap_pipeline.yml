@@ -1,0 +1,8 @@
+resources:
+  pipelines:
+    sap_pipeline:
+      name: sap_pipeline
+      target: sap_${bundle.environment}
+      libraries:
+        - notebook:
+            path: ../../src/dlt_pipeline.ipynb

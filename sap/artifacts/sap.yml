@@ -1,0 +1,5 @@
+artifacts:
+  sap:
+    type: whl
+    build: uv build
+    path: ..
